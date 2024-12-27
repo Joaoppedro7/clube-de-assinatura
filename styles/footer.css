@@ -5,6 +5,7 @@ footer {
   display: grid;
   padding-inline: 2rem;
 
+
   & .brand {
     margin-top: 6.125rem;
     display: flex;
