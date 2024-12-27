@@ -1,5 +1,5 @@
 #subscriptions {
-  margin-bottom: 18.875rem;
+  margin-bottom: 6.5rem;
   background: url(../assets/background/pricing-background.png) center / cover
     no-repeat;
 
@@ -146,6 +146,8 @@
 
 @media (width>=80em) {
   #subscriptions {
+    margin-bottom: 18.875rem;
+
     & h2 {
       margin-top: 12.125rem;
     }

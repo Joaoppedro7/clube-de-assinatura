@@ -1,7 +1,7 @@
 #monthly-kit {
   display: grid;
   justify-content: center;
-  margin-top: 6.5rem;
+  margin-top: 14rem;
 
   & .month-title {
     & div {
@@ -31,9 +31,9 @@
 
   & > div:nth-child(2) {
     margin-inline: auto;
-    margin-top: 10rem;
 
     & .book {
+      margin-top: 6rem;
       position: relative;
 
       & .content-book {
@@ -163,9 +163,8 @@
 }
 @media (width>=80em) {
   #monthly-kit {
-    margin-bottom: 5rem;
     height: 100vh;
-    margin-top: 10rem;
+    margin-top: 28rem;
 
     & .month-title {
       & div {
@@ -182,7 +181,8 @@
     & > div:nth-child(2) {
       & .book {
         position: relative;
-
+        margin-block: 14rem 18.125rem;
+        
         &:hover {
           & .content-book {
             animation: contentBookUp 400ms forwards ease-in-out;
