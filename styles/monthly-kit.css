@@ -164,7 +164,7 @@
 @media (width>=80em) {
   #monthly-kit {
     height: 100vh;
-    margin-top: 28rem;
+    margin-top: 32rem;
 
     & .month-title {
       & div {
@@ -181,7 +181,7 @@
     & > div:nth-child(2) {
       & .book {
         position: relative;
-        margin-block: 14rem 18.125rem;
+        margin-block: 12rem 18.125rem;
         
         &:hover {
           & .content-book {
