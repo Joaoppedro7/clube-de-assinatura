@@ -4,16 +4,17 @@
   height: 29rem;
   padding: 1.25rem;
 
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: inherit;
-    filter: blur(434px);
-    -webkit-backdrop-filters: brightness(0);
+  & .title {
+    &::before {
+      content: "";
+      position: absolute;
+      height: 25%;
+      width: 100%;
+      top: 100px;
+      left: 0;
+      background: var(--pink-low);
+      filter: blur(334px);
+    }
   }
 
   & nav {
@@ -176,7 +177,7 @@
           height: 4.56rem;
           width: 4.56rem;
           top: 120px;
-          right: 455px;
+          left: -525px;
           transform: rotate(100deg);
           opacity: 0;
           transition: all 400ms ease-in-out;
