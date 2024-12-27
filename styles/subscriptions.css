@@ -1,0 +1,329 @@
+#subscriptions {
+  margin-bottom: 18.875rem;
+  background: url(../assets/background/pricing-background.png) center / cover
+    no-repeat;
+  position: relative;
+
+  & h2 {
+    font: var(--title-sm);
+    color: var(--text-title);
+    margin-top: 6.5rem;
+    text-align: center;
+  }
+
+  & .pricing {
+    display: flex;
+    margin-inline: 0.25rem;
+    gap: 1rem;
+    overflow-x: auto;
+
+    & .header-pricing {
+      position: relative;
+
+      & > div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & > span {
+          font: 700 1rem var(--ff-base);
+          color: var(--pink-light);
+        }
+        & a {
+          font: 700 0.625rem var(--ff-base);
+          background-color: var(--shape-stroke);
+          color: var(--text-body);
+          padding: 0.5625rem 1.25rem;
+          border-radius: 999px;
+        }
+      }
+
+      & h3 {
+        margin-top: 1.5rem;
+        font: var(--title-md);
+        color: var(--text-title);
+        margin-bottom: 0.5rem;
+
+        & span {
+          font: 700 1rem var(--ff-base);
+        }
+      }
+
+      & .pricing-annual {
+        font: var(--body-sm);
+        color: var(--text-label);
+      }
+    }
+    & .details {
+      & ul[role="list"] {
+        display: grid;
+        gap: 0.75rem;
+        font: 400 0.75rem/1.4 var(--ff-base);
+        color: var(--text-body);
+
+        & li {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+
+          & img {
+            width: 0.75rem;
+            height: 0.75rem;
+          }
+        }
+      }
+    }
+    & .semi-annual {
+      display: grid;
+      align-content: space-between;
+      background-color: var(--shape-base);
+      margin-top: 7.5rem;
+      border-radius: 1.5rem;
+      padding: 2rem 2rem 1.75rem;
+      height: 26rem;
+      cursor: pointer;
+      border: 1px solid var(--shape-stroke);
+
+      & .btn-pricing {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding-block: 0.75rem;
+        background-color: var(--pink-dark);
+        border-radius: 0.5rem;
+        font: var(--button);
+        color: var(--text-title);
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+
+    & .monthly,
+    & .annual {
+      display: flex;
+      align-content: space-between;
+      background-color: var(--shape-base);
+      margin-top: 7.5rem;
+      height: 26rem;
+      border-radius: 1.5rem;
+      padding: 2rem 2rem 1.75rem;
+      display: grid;
+      cursor: pointer;
+      border: 1px solid var(--shape-stroke);
+
+      & .header-pricing > div span {
+        color: var(--blue-mid);
+      }
+
+      & .btn-pricing {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding-block: 0.75rem;
+        background-color: var(--blue-dark);
+        border-radius: 0.5rem;
+        font: var(--button);
+        color: var(--text-title);
+        height: 2.5rem;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes pricingMonth {
+  100% {
+    transform: translate(-290px, 50px) rotate(-8deg);
+    opacity: 1;
+  }
+}
+@keyframes pricingAnnual {
+  100% {
+    transform: translate(290px, 50px) rotate(8deg);
+    opacity: 1;
+  }
+}
+
+@media (width>=80em) {
+  #subscriptions {
+    & h2 {
+      margin-top: 12.125rem;
+    }
+    & .pricing {
+      overflow-x: unset;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      &:hover {
+        & .monthly {
+          animation: pricingMonth 0.6s both ease-in-out;
+        }
+        & .annual {
+          animation: pricingAnnual 0.6s both ease-in-out;
+        }
+      }
+
+      & .header-pricing {
+        position: relative;
+
+        & .star-1 {
+          height: 1.625rem;
+          width: 1.625rem;
+          position: absolute;
+          top: -55px;
+          left: -60px;
+          rotate: -3deg;
+          transition: all 400ms ease-in-out;
+        }
+
+        & .star-2 {
+          position: absolute;
+          height: 0.8125rem;
+          width: 0.8125rem;
+          top: -25px;
+          left: -70px;
+          rotate: -3deg;
+          transition: all 400ms ease-in-out;
+        }
+
+        & .star-3 {
+          position: absolute;
+          height: 1.625rem;
+          width: 1.625rem;
+          left: 250px;
+          top: 390px;
+          transition: all 400ms ease-in-out;
+        }
+        & .star-4 {
+          position: absolute;
+          height: 0.8125rem;
+          width: 0.8125rem;
+          left: 230px;
+          top: 410px;
+          transition: all 400ms ease-in-out;
+        }
+
+        & > div:first-child {
+          & a {
+            transition: all 400ms linear;
+
+            &:hover {
+              background-color: var(--blue-mid);
+            }
+          }
+        }
+      }
+      & .semi-annual {
+        width: 18rem;
+        transition: transform 400ms ease-in-out;
+        z-index: 1;
+        position: relative;
+        z-index: 2;
+
+        & .bunny {
+          top: -52px;
+          left: 30px;
+          position: absolute;
+          z-index: -1;
+        }
+
+        &:hover {
+          transform: translateY(-5px);
+          background-color: var(--shape-hover);
+        }
+
+        & .btn-pricing {
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+
+          &::before {
+            content: "";
+            position: absolute;
+            height: 0;
+            width: 0;
+            left: 50%;
+            top: 50%;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 400ms ease-out;
+            background-color: var(--pink-base);
+            z-index: -1;
+          }
+
+          &:hover::before {
+            width: 400px;
+            height: 200px;
+          }
+        }
+      }
+
+      & .monthly,
+      & .annual {
+        width: 18rem;
+        transition: all 400ms ease;
+        position: absolute;
+
+        & .header-pricing > div span {
+          color: var(--blue-mid);
+        }
+
+        &:hover {
+          z-index: 3;
+          scale: 1.03;
+          background-color: var(--shape-hover);
+        }
+
+        & .btn-pricing {
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+
+          &::before {
+            content: "";
+            position: absolute;
+            height: 0;
+            width: 0;
+            left: 50%;
+            top: 50%;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 400ms ease-in-out;
+            background-color: var(--blue-mid);
+            z-index: -1;
+          }
+
+          &:hover::before {
+            width: 400px;
+            height: 200px;
+          }
+        }
+      }
+
+      & .monthly:hover {
+        & .header-pricing {
+          & .star-1 {
+            transform: rotate(-20deg);
+          }
+
+          & .star-2 {
+            transform: rotate(20deg);
+          }
+        }
+      }
+
+      & .annual:hover {
+        & .header-pricing {
+          & .star-3 {
+            transform: rotate(20deg);
+          }
+          & .star-4 {
+            transform: rotate(-20deg);
+          }
+        }
+      }
+    }
+  }
+}
