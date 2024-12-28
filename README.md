@@ -5,18 +5,18 @@ Este projeto foi desenvolvido durante o curso Full-Stack da Rocketseat, para fin
 ## 📄 Sobre o projeto 
 
 O Clube de Assinatura Encantos Literários é um clube onde os amantes da leitura, podem aderir a planos de assinatura mensais, semestrais ou anuais.
-Ao juntar-se ao clube, os assinantes recebem mensalmente um livro surpresa do seu tema favorito, acompanhado de brindes exclusivos.
+Os assinantes que juntarem-se ao clube, recebem mensalmente um livro surpresa do seu tema favorito, acompanhado de brindes exclusivos.
 
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5**: Para estruturar a página.
-- **CSS3**: Para estilização e design.
+- **CSS3**: Para estilização e design da página.
    - CSS Animations: Para animações atrativas e dinâmicas.
    - CSS Transitions: Para transições suaves.
   - **Reponsividade**: Para garantir que página se adapte perfeitamente a diferentes dispositivos e tamanhos de tela.
 
 
-## 💻 Como Visualizar o Projeto
+## 💻 Para Visualizar o Projeto
 
 1. Clone o repositório:
    ```bash
@@ -32,8 +32,8 @@ Ao juntar-se ao clube, os assinantes recebem mensalmente um livro surpresa do se
 
 ## 🖥️ Apresentação 
 
-https://github.com/Joaoppedro7/clube-de-assinatura/blob/main/assets/README/Screenshot_1.jpg
-https://github.com/Joaoppedro7/clube-de-assinatura/blob/main/assets/README/Screenshot_2.jpg
+<img src="https://github.com/Joaoppedro7/clube-de-assinatura/blob/main/assets/README/Screenshot_1.jpg">
+<img src="https://github.com/Joaoppedro7/clube-de-assinatura/blob/main/assets/README/Screenshot_2.jpg">
 
 
 ## ✉️ Contribuição
