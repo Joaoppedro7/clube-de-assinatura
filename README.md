@@ -4,8 +4,8 @@ Este projeto foi desenvolvido durante o curso Full-Stack da Rocketseat, para fin
 
 ## 📄 Sobre o projeto 
 
-O Clube de Assinatura Encantos Literários é um clube onde os amantes da leitura, podem aderir a planos de assinatura mensais, semestrais ou anuais.
-Os assinantes que juntarem-se ao clube, recebem mensalmente um livro surpresa do seu tema favorito, acompanhado de brindes exclusivos.
+O Clube de Assinatura (Encantos Literários) é um clube onde os amantes da leitura, podem aderir a planos de assinatura mensais, semestrais ou anuais e
+ao juntar-se ao clube, os assinantes recebem mensalmente um livro surpresa do seu tema favorito, acompanhado de brindes exclusivos.
 
 ## 🚀 Tecnologias Utilizadas
 
