@@ -357,17 +357,17 @@
             z-index: -1;
 
             & .book-yellow {
-              transform: translate(100px, -70px) rotate(12deg);
+              transform: translate(98px, -70px) rotate(12deg);
             }
             & .book-purple {
-              transform: translate(195px, 10px) rotate(22deg);
+              transform: translate(198px, 15px) rotate(22deg);
             }
             & > div {
               & .arrow {
-                transform: translate(190px, 62px);
+                transform: translate(195px, 65px);
               }
               & .arrow-content {
-                transform: translate(170px, 110px);
+                transform: translate(165px, 110px);
               }
             }
           }
@@ -424,7 +424,7 @@
 
           & .book-yellow {
             left: 200px;
-            bottom: 35px;
+            bottom: 30px;
             z-index: -1;
             transition: all 300ms ease-in-out;
           }
