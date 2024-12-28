@@ -2,8 +2,10 @@
   display: grid;
   justify-content: center;
   margin-top: 16rem;
+  margin-inline: auto;
 
   & .month-title {
+
     & div {
       display: flex;
       gap: 1rem;
@@ -446,7 +448,7 @@
             }
 
             & .arrow-content {
-              bottom:40px;
+              bottom: 40px;
               transition: all 300ms ease-in-out;
             }
           }

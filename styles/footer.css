@@ -5,6 +5,7 @@ footer {
   display: grid;
   justify-content: center;
   padding-inline: 2rem;
+  margin-inline: auto;
 
   & .brand {
     margin-top: 6.125rem;

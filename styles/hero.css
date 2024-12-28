@@ -3,6 +3,7 @@
     no-repeat;
   height: 29rem;
   padding: 1.25rem;
+  margin-inline: auto;
 
   & nav {
     display: flex;
@@ -86,7 +87,6 @@
     background: url(../assets/background/hero-background.png) bottom / cover
       no-repeat;
     padding: 3.5rem 10rem;
-    margin-inline: auto;
     width: 100%;
     height: 100vh;
     animation: appear 1s 0.5s both ease-in;
@@ -131,7 +131,7 @@
     & .content-hero {
       color: rgba(220, 220, 220, 0.8);
       font: 500 2rem/2 var(--ff-base);
-      margin-top: 38rem;
+      margin-top: 41rem;
       height: 25rem;
       width: 100%;
       text-align: center;
@@ -245,13 +245,12 @@
 }
 @media (width>=80em) and (height<=50rem) {
   #hero {
-    padding: 3.5rem 7.5rem;
     & .title {
       margin-top: 6rem;
     }
 
     & .content-hero {
-      width: max-content;
+      margin-inline: auto;
       margin-top: 28rem;
     }
   }
