@@ -251,9 +251,8 @@
     }
 
     & .content-hero {
-      /* text-align: center; */
       width: max-content;
-      margin-top: 33rem;
+      margin-top: 28rem;
     }
   }
 }
