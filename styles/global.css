@@ -53,11 +53,21 @@ body {
 ul[role="list"] {
   list-style: none;
 }
-
+.desktop-only {
+  display: none;
+}
 
 @media (width>=80em) {
   :root {
     --title-lg: 700 3rem var(--ff-base);
     --title-sm: 700 2rem var(--ff-base);
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
   }
 }

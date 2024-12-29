@@ -9,6 +9,7 @@ footer {
 
   & .brand {
     margin-top: 6.125rem;
+    display: flex;
     flex-direction: column;
 
     & .logo-footer {
@@ -28,6 +29,7 @@ footer {
     }
 
     & .media-social {
+      display: flex;
       justify-content: space-between;
       margin-top: 0.75rem;
 
@@ -58,6 +60,7 @@ footer {
   }
 
   & .links {
+    display: flex;
     gap: 3.5rem;
 
     & .title {
@@ -84,6 +87,7 @@ footer {
   footer {
     background: url(../assets/background/book-trace-background.png) top / cover
       no-repeat;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding-inline: 10rem;
