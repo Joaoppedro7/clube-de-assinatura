@@ -12,7 +12,6 @@
   }
 
   & .pricing {
-    display: flex;
     margin-inline: 0.25rem;
     gap: 1rem;
     overflow-x: auto;
@@ -21,7 +20,6 @@
       position: relative;
 
       & > div:first-child {
-        display: flex;
         justify-content: space-between;
         align-items: center;
 
@@ -56,7 +54,6 @@
     }
     & .details {
       & ul[role="list"] {
-        display: grid;
         gap: 0.75rem;
         font: 400 0.75rem/1.4 var(--ff-base);
         color: var(--text-body);
@@ -74,7 +71,6 @@
       }
     }
     & .semi-annual {
-      display: grid;
       align-content: space-between;
       background-color: var(--shape-base);
       margin-top: 7.5rem;
@@ -100,14 +96,12 @@
 
     & .monthly,
     & .annual {
-      display: flex;
       align-content: space-between;
       background-color: var(--shape-base);
       margin-top: 7.5rem;
       height: 26rem;
       border-radius: 1.5rem;
       padding: 2rem 2rem 1.75rem;
-      display: grid;
       cursor: pointer;
       border: 1px solid var(--shape-stroke);
 
@@ -154,7 +148,6 @@
     }
     & .pricing {
       overflow-x: unset;
-      display: flex;
       justify-content: center;
       position: relative;
 
