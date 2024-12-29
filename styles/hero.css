@@ -246,13 +246,14 @@
 }
 @media (width>=80em) and (height<=50rem) {
   #hero {
+    padding: 3rem 3rem;
     & .title {
       margin-top: 6rem;
     }
 
     & .content-hero {
       margin-inline: auto;
-      margin-top: 28rem;
+      margin-top: 32rem;
     }
   }
 }
