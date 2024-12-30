@@ -130,7 +130,7 @@
       }
     }
     & .content-hero {
-      color: rgba(220, 220, 220, 0.8);
+      color: var(--text-body);
       font: 500 2rem/2 var(--ff-base);
       margin-top: 41rem;
       height: 25rem;
@@ -202,7 +202,6 @@
       }
       &:hover {
         & span:first-child {
-          color: var(--text-body);
           opacity: 1;
           transition-delay: 0;
 
