@@ -256,3 +256,25 @@
     }
   }
 }
+@media (min-height: 44rem) and (max-height: 59rem) {
+  #hero {
+    & .content-hero.mobile-only {
+      margin-top: 18rem;
+
+      & span {
+        &:first-child img {
+          top: 490px;
+          left: 280px;
+        }
+        &:nth-child(2) img {
+          top: 620px;
+          left: 45px;
+        }
+        &:last-child img {
+          top: 625px;
+          right: 40px;
+        }
+      }
+    }
+  }
+}
